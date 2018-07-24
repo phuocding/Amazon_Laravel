@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Category Detail</h1>
+    <h1>Product Detail</h1>
     <ul>
         <li>
             <a href="/admin/product/create">Create New</a>
@@ -17,6 +17,6 @@
             <a href="/admin/product">List</a>
         </li>
     </ul>
-    Show detail category: {{$obj-> content}}
+    Show detail product: {{$obj-> content}}
 </body>
 </html>

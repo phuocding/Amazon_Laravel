@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>List category</h1>
+    <h1>List product</h1>
     <ul>
         <li>
             <a href="/admin/product/create">Create New</a>
@@ -18,7 +18,7 @@
         </li>
     </ul>
     <ul>
-        @foreach($list_obj as $item)
+        @foreach($products_in_view as $item)
             <li>
                 <a href="/admin/product/{{$item -> id}}">{{$item -> name}}</a>
                 <a href="/admin/product/{{$item -> id}}/edit">Edit</a>&nbsp;&nbsp;

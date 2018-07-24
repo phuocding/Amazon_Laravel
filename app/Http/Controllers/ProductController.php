@@ -15,7 +15,7 @@ class ProductController extends Controller
     public function index()
     {
         $list_obj = Product::all();
-        return view('admin.products.list')->with('products_in_view', $list_obj);
+        return view('admin.product.list')->with('products_in_view', $list_obj);
     }
 
     /**
